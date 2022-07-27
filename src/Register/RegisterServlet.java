@@ -25,7 +25,7 @@ public class RegisterServlet extends HttpServlet {
         String passwordagain = request.getParameter("password-again");
         System.out.println(username);
         if (password.length() < 8) {
-            JOptionPane.showMessageDialog(null, "密码长度必须大于8位！");
+            JOptionPane.showMessageDialog(null, "密码长度须大于8位");
             response.sendRedirect("register.jsp");
             return;
         }
