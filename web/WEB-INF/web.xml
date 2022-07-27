@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app >
+    <servlet>
+        <servlet-name>hc</servlet-name>
+        <servlet-class>HangCheng.hcServlet</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hc</servlet-name>
+        <url-pattern>/hc</url-pattern>
+    </servlet-mapping>
+</web-app>
